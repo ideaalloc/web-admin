@@ -1,0 +1,42 @@
+/* CSS Document */
+
+
+@charset "utf-8";
+
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ul,li,fieldset,form,input,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{ margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
+ul{ cust-style:none;}
+html,body{ line-height:1.2;}
+blockquote,q{ quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{ content:'';content:none;}
+ins{ text-decoration:none;}
+del{ text-decoration:line-through;}
+table{ border-collapse:collapse;border-spacing:1;}
+body{ color:#333; font-family:"微软雅黑"; font-size:14px; background-color:#fff; text-align:left; list-style:none;}
+a{ text-decoration:none; color:#333; cursor:pointer;}
+a:hover, a:active{ color:#b70830;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+.w1000{ width:1000px; margin:auto;}
+li{ list-style-type:none;}
+
+.mainNav:nth-child(3){ background-color:#565656;}
+
+.adv{ width:1000px; height:200px; margin:0 auto;}
+.container{ width:1000px; overflow:auto; margin:15px auto;}
+.slideNav{ width:200px;}
+.slideNav h2{ font-size:16px; height:45px; line-height:45px; word-spacing:1.2; text-align:center; background-color:#b70830; color:#fff; border-bottom: solid 5px #9b0023;}
+.slideNav ul{ border:solid 1px #ddd; border-top:none;}
+.slideNav ul li{ list-style:none; height:40px; border-bottom:solid 1px #ddd; *padding:0; *overflow:hidden;}
+.slideNav ul li:last-child{ border-bottom:none;}
+.slideNav ul li a{ display:block; line-height:40px; padding-left:15px; padding-right:15px;}
+.slideNav ul li a:hover, .slideNav ul li a:active{ background-color:#f1f1f1;}
+.current{ color:#b70830; background:url(../images/jt.png) 170px 12px no-repeat #f1f1f1;}
+
+.detailsCont{ width:710px; padding:20px 30px; overflow:auto; border:solid 1px #ddd;}
+.detailsCont h1{ height:30px; line-height:30px; font-size:16px; color:#b70830; text-align:center;}
+.other{ width:500px; height:20px; line-height:20px; margin:20px auto; font-size:12px; color:#888;}
+.other span{ display:block;}
+.auther, .time{ width:25%; float:left;}
+.share{ width:40%; float:right;}
+.mainCont{ padding-top:20px; border-top:dashed 1px #ddd; line-height:2; text-indent:30px;}

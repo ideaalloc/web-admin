@@ -1,0 +1,93 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+*,html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ul,li,fieldset,form,input,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{ margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;}
+ul{ list-style:none;}
+html,body{ line-height:1.2;}
+blockquote,q{ quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{ content:'';content:none;}
+ins{ text-decoration:none;}
+del{ text-decoration:line-through;}
+table{ border-collapse:collapse;border-spacing:1;}
+body{ color:#333; font-family:"微软雅黑"; font-size:14px; background-color:#fff; text-align:left; list-style:none;}
+a{ text-decoration:none; color:#333; cursor:pointer;}
+a:hover, a:active{ color:#b70830;}
+.fl{ float:left;}
+.fr{ float:right;}
+.clear{ clear:both;}
+.w1000{ width:1000px; margin:auto;}
+li{ list-style-type:none;}
+
+.adv{ width:1000px; height:200px; margin:0 auto;}
+.container{ width:1000px; overflow:auto; margin:15px auto;}
+.slideNav{ width:200px;}
+.slideNav h2{ font-size:16px; height:45px; line-height:45px; word-spacing:1.2px; text-align:center; background-color:#b70830; color:#fff; border-bottom: solid 5px #9b0023;}
+.slideNav ul{ border:solid 1px #ddd; border-top:none;}
+.slideNav ul li{ list-style:none; height:40px; border-bottom:solid 1px #ddd; *padding:0; *overflow:hidden;}
+.slideNav ul li:last-child{ border-bottom:none;}
+.slideNav ul li a{ display:block; line-height:40px; padding-left:15px; padding-right:15px;}
+.slideNav ul li a:hover, .slideNav ul li a:active{ background-color:#f1f1f1;}
+.current{ color:#b70830; background:url(../images/jt.png) 170px 12px no-repeat #f1f1f1;}
+.content{ width:710px; padding:30px; border:solid 1px #ddd;}
+.content p{ text-indent:30px; line-height:2;}
+.content p span{ color:red;}
+
+/*核心团队*/
+.team h1{ font-size:20px; height:40px;}
+.talent{ padding:0px 20px; background-color:#fff; border-top:solid 1px #ececec;}
+.talent ul li{ padding:20px 0px; border-bottom: dashed 1px #ddd; list-style:none; overflow:auto;}
+.talent ul li:last-child{ border:none;}
+.talentImg{ width:150px; height:200px; float:left;}
+.talentIntro{ width:590px; float:right;}
+.talentIntro h4{ font-size:18px;}
+.talentIntro h5{ font-size:15px; color:#888;}
+.talentIntro p{ font-size:13px; margin-top:10px; color:#888;}
+#last{ *border:none; border:none\0;}
+
+
+/*合作伙伴*/
+.partner{ width:770px; border:solid 1px #ddd;}
+.partner h3{ height:40px;  line-height:40px; padding-left:22px; background-color:#f1f1f1;}
+.logos{ overflow:auto;}
+.logos ul li{ width:165px; float:left; margin:15px 0px 15px 22px; list-style:none;}
+.logos ul li img{ display: block; width:165px; height:100px;}
+.logos ul li p{ text-align:center; line-height:25px;}
+
+/*资质荣誉*/
+.honor{ width:780px;}
+.hn{ width:340px; overflow:auto; padding:10px; background-color:#f1f1f1; float:left; margin-left:30px;}
+.hn img{ display:block; width:340px;}
+.hn h4{ height:40px; line-height:40px; text-align:center; font-size:16px;}
+.hn p{ line-height:25px;}
+.hn span{ display:block; height:25px; line-height:25px; text-align:right; margin-top:-25px; color:#777;}
+
+
+/*意利诚聘*/
+.content h3{ font-size:18px; padding-left:20px; height:35px; line-height:35px; margin-bottom:20px;}
+.content h4{ font-size:15px;}
+.seek{ height:50px;}
+.seek select{ width:200px; margin-right:50px;}
+#sBtn{ width:60px; height: 20px; background:url(../images/seek.png) left top no-repeat;}
+#sBtn:hover{ background:url(../images/seek.png) left bottom no-repeat;}
+
+/*意利动态*/
+.list{ width:770px; border:solid 1px #ddd;}
+.list ul li{ width:730px; overflow:auto; list-style:none; padding:20px; clear:both;}
+.nimg{ width:230px; height:130px; float:left;}
+.ntxt{ width:480px; float:right;}
+.ntxt h5{ font-size:16px; height:30px; line-height:30px;}
+.ntxt p{ text-indent:30px; line-height:1.5; color:#888;}
+.xq{ display:block; width:100px; height:25px; margin-top:10px; text-align:center; line-height:25px; background-color:#fff; border:solid 1px #ddd;}
+.xq:hover, .xq:active{ background-color:#ddd; color:#b70830;}
+
+
+
+
+
+
+
+
+
+
+
